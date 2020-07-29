@@ -1,0 +1,52 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+}
+
+.heading {
+  font-style: italic;
+  color: Pink;
+  text-align: center;
+  font-family: "Comic San MS";
+}
+
+h1 {
+  font-size: 47px;
+}
+
+ul.horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li {
+  float: left;
+}
+nav li a {
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+ 
+
+nav li a:hover {
+  background-color: rgb(31, 44, 59);
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+}
+ 
+img {
+  width: 32%;
+}
